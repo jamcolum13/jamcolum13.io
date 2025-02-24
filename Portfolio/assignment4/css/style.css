@@ -5,6 +5,12 @@ html, body {
 	height:100%;
 }
 
+marquee{
+font-size:2.5em;  
+line-height:50px; 
+    
+}
+
 html {
 		/* Standard text-settings below */
 	font-size: 1em;
@@ -15,6 +21,7 @@ html {
     font-family: 'bold'; /*a name to be used later*/
     src: url('bold.ttf'); /*URL to font*/
 }
+
 
 
 body {
@@ -32,35 +39,28 @@ width:90%;
 padding:20px;	
         
 
-line-height:10px;
-      }      
+line-height:50px;
+}      
 
-
+#boldbass{
+    position:relative;
+    font-size:10em;  
+line-height:50px; 
+      text-shadow: 15px 10px#5eabc4;  
+margin-top:100px;    
+margin-left: 130px;
+rotate:5deg;     
+    
+}
 
 #container {
 font-family:'bold'; 
 background: #a5c8d4;
-
 }
 
-#bass{
-margin-top:100px;     
-margin-left:250px; 
-position: static;
-rotate:40deg;    
-}
 
-#bass2{
-margin-left:230px;        
-position:sticky;
-rotate:30deg;    
-}
-
-#neck{
-    margin-left:265px;
-position:inherit;
-}
  #bassbody{
 margin-left:10px; 
-position: fixed;     
+position: sticky; 
+    
 }
