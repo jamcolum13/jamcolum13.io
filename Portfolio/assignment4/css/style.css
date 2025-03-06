@@ -37,10 +37,21 @@ margin-bottom: 20px;
 max-width: 800px;
 width:90%;    
 padding:20px;	
-        
-
 line-height:50px;
 }      
+
+
+h1 {
+ position:relative;
+    font-size:10em;  
+line-height:50px; 
+      text-shadow: 15px 10px#5eabc4;  
+margin-top:100px;    
+margin-left: 130px;
+rotate:5deg;     
+         
+    
+}
 
 #boldbass{
     position:relative;
