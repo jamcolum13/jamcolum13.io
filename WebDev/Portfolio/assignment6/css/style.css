@@ -80,6 +80,7 @@ float: left;
     
     #container{
     width:1000px;
+        height: 600px;
     }
     
     section#first{
@@ -94,6 +95,7 @@ float: left;
 	
     footer{
         clear:both;
+      ]
     }
 	
 	
