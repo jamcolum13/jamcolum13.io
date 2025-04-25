@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title> Assignment 8 </title>
+	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+    
+
+
+    
+    <body>
+
+
+
+       
+ 
+        
+<header>       
+<h1> Assignment 8  </h1>
+<h2>  J-Query </h2>   
+</header>
+        
+  <button onclick="myFunction()">Click Me</button>      
+  <div id="myDIV">
+  meme.
+</div>   
+        
+<figure class="responsive">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/LWTTOyHOiU0?si=A-MJpsO2au7Lq5i9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>        
+<button onclick="myFunction3()">Click Me</button>      
+  <div id="myDIV3">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/DTUk82TV1T4?si=Of8bFvndd6AzDO0i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>  
+        
+        
+  <div id="container">
+
+      
+      
+      
+
+
+<img src="img/patrick.png">  
+<button onclick="myFunction2()">Click Me</button>      
+  <div id="myDIV2">
+      <img src="img/spongybob.JPG">  
+ 
+</div> 
+      
+      
+      
+      
+      
+  </div><!-- close "container" -->
+  
+
+
+ 
+
+  <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+
+  }); //close .ready()
+    
+    
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    
+    function myFunction2() {
+  var x = document.getElementById("myDIV2");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+        
+    }
+    
+    
+     
+    function myFunction3() {
+  var x = document.getElementById("myDIV3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+        
+    }
+</script>
+
+ 
+        
+
+<footer> &copy; Julian Macedo 2025 </footer>    
+</body>
+	
+</html> 
