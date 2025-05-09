@@ -65,7 +65,7 @@ font-family: 'comic';
 
 ul {    
 display: flex;       
-justify-content: ;     background-color: var(--orange);
+background-color: var(--orange);
 }
  
 li{
