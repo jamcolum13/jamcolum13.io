@@ -26,12 +26,14 @@ html {
 p{
     
 padding: 15px;    
-margin-left: 25px;  
+ 
 line-height: 50px;    
 font-size:100%;
 font-family:'comic' ;
     
-border: outset 20px black ;    
+border:1px solid;
+padding:8px;
+box-shadow:5px 10px  var(--black); ;  
     
 }
 
@@ -41,6 +43,7 @@ border: outset 20px black ;
 header{ 
 margin-top: 10px;    
 padding:10px;
+   
 font-family: 'comic';    
 }
 
@@ -55,18 +58,19 @@ nav{
 margin-top:50px;     
 background-color: var(--orange);
 padding:5px;
-font-size: 20px; 
+font-size: 17px; 
 font-family: 'comic';    
     
 }
 
 ul {    
 display: flex;       
-justify-content: space-evenly;     
+justify-content: ;     background-color: var(--orange);
 }
  
 li{
- display: inline-block;         
+ display: inline-block;  
+    
 }
 
 li a{
@@ -82,9 +86,8 @@ color:  var(--orange);
 
 
 
-body {
-	
-	
+body {	
+padding: 25px;	
 }
 
 
@@ -93,14 +96,44 @@ body {
 }
 
 
+/*
 
 img{ width: 80%;
 margin-top:25px ;  
-margin-left: 50px;    
+margin-left: 50px;  
+}
+*/
+#centr{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+#batleo{ 
+    padding-top: 25px;  
+    max-width: 500px;    
+    margin: auto;    
+        
+    }
+
+#mikey{ 
+padding-top: 25px;  
+max-width: 500px;    
+margin: auto;    
+    
 }
 
+
+#blacklaser{
+    
+ width: 40%;   
+}
+
+
 iframe{
-margin-left: 15px;    
+justify-content: space-evenly;  
     
 }
 
