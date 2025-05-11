@@ -25,7 +25,7 @@ html {
 
 p{
     
-padding: 15px;    
+padding: 25px;    
  
 line-height: 50px;    
 font-size:100%;
@@ -41,53 +41,46 @@ box-shadow:5px 10px  var(--black); ;
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 header{ 
-margin-top: 10px;    
-padding:10px;
+    padding-top: 15px;   
+    padding:10px;
    
-font-family: 'comic';    
+    font-family: 'comic';    
 }
 
 header img{ width: 120px ; 
-float: right; 
-position: absolute;
-top: 0px;
-right: 0px;    
+    float: right; 
+    position: absolute;
+    top: 0px;
+    right: 0px;    
 }
 
 nav{
-margin-top:50px;     
+    margin-top:25px;     
 background-color: var(--orange);
-padding:5px;
-font-size: 17px; 
-font-family: 'comic';    
-    
-}
+    padding:5px;
+    font-size: 16px; 
+    font-family: 'comic';       }
 
 ul {    
-display: flex;       
-background-color: var(--orange);
-}
+    display: flex;       
+    background-color: var(--orange);}
  
 li{
- display: inline-block;  
-    
-}
+    display: inline-block;  }
 
 li a{
     padding: 6px;
     color:  var(--black); 
-    text-decoration: none;    
-}
+    text-decoration: none;    }
 
 li a:hover{    
 background-color: var(--black); 
-color:  var(--orange);    
-}
+color:  var(--orange);    }
 
 
 
 body {	
-padding: 25px;	
+padding: 30px;	
 }
 
 
@@ -107,10 +100,9 @@ margin-left: 50px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    
-    
+    align-items: center;  
 }
+
 #batleo{ 
     padding-top: 25px;  
     max-width: 400px;    
@@ -119,9 +111,20 @@ margin-left: 50px;
 
 #frogleo{
 max-width:400px ;
- 
 }
 
+
+#leobio{
+    padding-top:25px; ;
+    max-width:450px ;
+    }
+
+#aprilbio{
+    max-width:400px ;} 
+
+
+ #mebio{            
+    max-width:400px ;            }
 
 #evidenceonapril{
     max-width: 300px ;
@@ -130,7 +133,7 @@ max-width:400px ;
 
 #mikey{ 
 padding-top: 25px;  
-max-width: 500px;    
+max-width: 400px;    
 margin: auto;    
     
 }
@@ -138,14 +141,17 @@ margin: auto;
 
 #blacklaser{
     
- width: 40%;   
+ width: 60%;   
 }
 
+
+#silverlaser{ 
+    width: 60%;   
+   }
+   
 
 iframe{
-justify-content: space-evenly;  
-    
-}
+justify-content: space-evenly; }
 
 
 
@@ -154,12 +160,42 @@ justify-content: space-evenly;
 MEDIA QUERIES!
 You can adjust the min-width numbers below, and add as many new media queries as you need.
 ======================================== */
-
-
-
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
 	
+
+
+    header{ 
+        padding-top: 15px;   
+        padding:10px;
+        font-size: 30px; 
+        font-family: 'comic';    
+    }
+    
+    header img{ width: 150px ; 
+        float: right; 
+        position: absolute;
+        top: 0px;
+        right: 0px;  }
+
+
+    nav{
+        margin-top:20px;     
+        background-color: var(--orange);
+        padding:5px;
+        font-size: 21px; 
+        font-family: 'comic'; }
+        
+        ul {    
+        display: flex;       
+        background-color: var(--orange);
+        justify-content: space-evenly;
+        align-items: center; }
+         
+       
+
+
+
 	
 	
 	
@@ -170,8 +206,33 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
-	
-	
+
+header{ 
+        padding-top: 15px;   
+        padding:10px;
+        font-size: 35px; 
+        font-family: 'comic';    
+    }    
+
+header img{ width: 190px ; 
+    float: right; 
+    position: absolute;
+    top: 0px;
+    right: 0px;  }
+
+    nav{
+        margin-top:50px;     
+        background-color: var(--orange);
+        padding:5px;
+        font-size: 30px; 
+        font-family: 'comic'; }	
+
+
+
+
+
+
+
 	
 	
 } /* closes 1024px+ */
