@@ -24,15 +24,13 @@ html {
 }
 
 p{
-    
+margin-top: 25px;    
 padding: 25px;    
- 
 line-height: 50px;    
 font-size:100%;
 font-family:'comic' ;
     
 border:1px solid;
-padding:8px;
 box-shadow:5px 10px  var(--black); ;  
     
 }
@@ -43,7 +41,7 @@ box-shadow:5px 10px  var(--black); ;
 header{ 
     padding-top: 15px;   
     padding:10px;
-   
+    font-size: 17px; 
     font-family: 'comic';    
 }
 
@@ -55,7 +53,7 @@ header img{ width: 120px ;
 }
 
 nav{
-    margin-top:25px;     
+    margin-top:10px;     
 background-color: var(--orange);
     padding:5px;
     font-size: 16px; 
@@ -89,13 +87,7 @@ padding: 30px;
 }
 
 
-/*
 
-img{ width: 80%;
-margin-top:25px ;  
-margin-left: 50px;  
-}
-*/
 #centr{
     width: 100%;
     display: flex;
@@ -139,14 +131,17 @@ margin: auto;
 }
 
 
-#blacklaser{
-    
+#blacklaser{   
  width: 60%;   
+
+ max-width:500px ;
 }
 
 
 #silverlaser{ 
     width: 60%;   
+
+    max-width:500px ;
    }
    
 
@@ -154,6 +149,17 @@ iframe{
 justify-content: space-evenly; }
 
 
+
+
+
+* {box-sizing:border-box}
+
+
+
+	
+@media screen and (min-width: 480px) {
+    /* Desktop-specific styles */
+  }
 
 
 /* ========================================
@@ -180,7 +186,6 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 
     nav{
-        margin-top:20px;     
         background-color: var(--orange);
         padding:5px;
         font-size: 21px; 
@@ -192,15 +197,29 @@ You can adjust the min-width numbers below, and add as many new media queries as
         justify-content: space-evenly;
         align-items: center; }
          
-       
+    p{
+        width: 600px;
+    }
 
+    #batleo{ 
+        margin: 50px;
+        padding-top: 25px;  
+        max-width: 500px;    
+        margin: auto;    
+        }
+    
+     #leobio{
+        padding-top:25px; ;
+            max-width:650px ;
+            }
 
 
 	
 	
 	
-} /* closes 769px+ */
-
+            @media screen and (min-width: 796px) {
+                /* Desktop-specific styles */
+              }
 
 
 
@@ -221,19 +240,46 @@ header img{ width: 190px ;
     right: 0px;  }
 
     nav{
-        margin-top:50px;     
+        margin-top:15px;     
         background-color: var(--orange);
         padding:5px;
         font-size: 30px; 
         font-family: 'comic'; }	
 
 
-
-
+        #batleo{ 
+            padding-top: 25px;  
+            max-width: 600px;    
+            margin: auto;    
+            }
+        
+            #leobio{
+                padding-top:25px; ;
+                    max-width:900px ;
+                    }
+        
 
 
 
 	
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px; /* Space between image and text */
+    }
+                      
+    .flex-image {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 8px;
+                      }
+                      
+                      .flex-text {
+                        max-width: 600px;
+                        font-family: 'comic';
+                        line-height: 1.6;
+                      }
 	
 } /* closes 1024px+ */
 
