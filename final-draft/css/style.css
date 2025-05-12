@@ -232,7 +232,9 @@ You can adjust the min-width numbers below, and add as many new media queries as
             #aprilbio{
                 max-width:250px ;} 
             
-	
+                #evidenceonapril{
+                    max-width: 500px ;
+                    }
 		
 .flex-container {
     display: flex;
