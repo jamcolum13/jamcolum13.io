@@ -108,7 +108,7 @@ text-align : center;
 
 #leobio{
     padding-top:25px; ;
-    max-width:450px ;
+    width:450px ;
     }
 
 #aprilbio{
@@ -226,7 +226,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
     
      #leobio{
         padding-top:25px; ;
-            max-width:650px ;
+            width:650px ;
             }
 
             #aprilbio{
@@ -319,11 +319,11 @@ header img{ width: 190px ;
             max-width: 600px;    
             margin: auto;    
             }
-        
             #leobio{
                 padding-top:25px; ;
-                    max-width:900px ;
+                    width:850px ;
                     }
+        
         
                     #mikey{ 
                         padding-top: 25px;  
