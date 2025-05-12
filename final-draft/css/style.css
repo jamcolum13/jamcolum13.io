@@ -23,8 +23,15 @@ html {
     line-height: 1.4em;
 }
 
+#centr{
+text-align: center;
+
+}
+
+
 p{
-margin-top: 25px;    
+    margin-top : 100px;
+    margin-bottom : 100px;
 padding: 25px;    
 line-height: 50px;    
 font-size:100%;
@@ -37,6 +44,8 @@ box-shadow:5px 10px  var(--black); ;
 
 
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+
 
 header{ 
     padding-top: 15px;   
@@ -82,27 +91,18 @@ padding: 30px;
 }
 
 
-#container {
-	
-}
 
-
-
-#centr{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;  
-}
 
 #batleo{ 
-    padding-top: 25px;  
-    max-width: 400px;    
+    align-items: center;         padding-top: 25px;  
+    max-width: 80%;    
     margin: auto;    
     }
 
 #frogleo{
 max-width:400px ;
+text-align : center; 
+
 }
 
 
@@ -112,11 +112,16 @@ max-width:400px ;
     }
 
 #aprilbio{
-    max-width:400px ;} 
+    max-width:400px ;
+    } 
 
+    #aprilbiotext{
+
+
+    }
 
  #mebio{            
-    max-width:400px ;            }
+    max-width:300px ;            }
 
 #evidenceonapril{
     max-width: 300px ;
@@ -154,8 +159,10 @@ justify-content: space-evenly; }
 
 * {box-sizing:border-box}
 
-
-
+/* Base styles */
+.flex-container {
+    display: block;
+}
 	
 @media screen and (min-width: 480px) {
     /* Desktop-specific styles */
@@ -170,6 +177,15 @@ You can adjust the min-width numbers below, and add as many new media queries as
 @media all and (min-width: 769px) {
 	
 
+
+    #centr{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;  
+        text-align: center ;
+    }
+    
 
     header{ 
         padding-top: 15px;   
@@ -213,10 +229,59 @@ You can adjust the min-width numbers below, and add as many new media queries as
             max-width:650px ;
             }
 
+            #aprilbio{
+                max-width:250px ;} 
+            
+	
+		
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px; /* Space between image and text */
+    }
+                      
+    .flex-image {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 8px;
+                      }
+                      
+                      .flex-text {
+                        max-width: 600px;
+                        font-family: 'comic';
+                        line-height: 1.6;
+                      }
+                      .flex-container1 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        gap: 20px; /* Space between image and text */
+                        }
+                                
+                      .flex-image1 {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 8px;
+                      }
+                      
+                      .flex-text1xw {
+                        max-width: 600px;
+                        font-family: 'comic';
+                        line-height: 1.6;
+                      }
+	
 
-	
-	
-	
+                      #mikey{ 
+                        padding-top: 25px;  
+                        max-width: 500px;    
+                        margin: auto;    
+                            
+                        }                
+                        #mebio{            
+                            max-width:400px ;   
+
+
             @media screen and (min-width: 796px) {
                 /* Desktop-specific styles */
               }
@@ -258,29 +323,16 @@ header img{ width: 190px ;
                     max-width:900px ;
                     }
         
+                    #mikey{ 
+                        padding-top: 25px;  
+                        max-width: 600px;    
+                        margin: auto;    
+                            
+                        }
 
 
 
-	
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px; /* Space between image and text */
-    }
-                      
-    .flex-image {
-                        max-width: 100%;
-                        height: auto;
-                        border-radius: 8px;
-                      }
-                      
-                      .flex-text {
-                        max-width: 600px;
-                        font-family: 'comic';
-                        line-height: 1.6;
-                      }
-	
+                       
 } /* closes 1024px+ */
 
 
