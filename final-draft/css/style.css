@@ -230,7 +230,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
             }
 
             #aprilbio{
-                max-width:250px ;} 
+                max-width:300px ;} 
             
                 #evidenceonapril{
                     max-width: 500px ;
@@ -282,7 +282,7 @@ You can adjust the min-width numbers below, and add as many new media queries as
                         }                
                         #mebio{            
                             max-width:400px ;   
-
+                        }
 
             @media screen and (min-width: 796px) {
                 /* Desktop-specific styles */
